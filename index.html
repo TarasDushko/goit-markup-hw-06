@@ -52,12 +52,44 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+        </button>
       </div>
+
+<div class="mobile-menu is-open">
+  <div class="container mobile-menu-container">
+       <button type="button" class="mobile-menu-close-btn">
+      <svg class="mobile-close-btn-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close">
+        </use>
+      </svg>
+    </button>
+<nav class="mobile-menu-nav">
+  <ul class="mobile-menu-nav-list">
+    <li class="mobile-menu-nav-item">
+      <a href="./index.html" class="mobile-item-nav-link current">Studio</a>
+    </li>
+    <li class="mobile-menu-nav-item">
+      <a href="" class="mobile-item-nav-link">Portfolio</a>
+    </li>
+    <li class="mobile-menu-nav-item">
+      <a href="" class="mobile-item-nav-link">Contacts</a>
+    </li>
+  </ul>
+</nav>
+<address></address>
+<div>social link</div>
+  </div>
+</div>
+
     </header>
     <main>
       <!--#region s1-->
 
-      <section class="hero">
+      <section class="hero hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="btn-hero" type="button">Order Service</button>
@@ -67,7 +99,7 @@
       <!-- #endregion s1 -->
       <!-- #region s2 -->
 
-      <section class="decsr">
+      <section class="decsr hidden">
         <div class="container">
           <h2 class="title-decsr">Test</h2>
           <ul class="list-descr">
@@ -126,7 +158,7 @@
       <!-- #endregion s2 -->
       <!-- #region s3 -->
 
-      <section class="team">
+      <section class="team hidden">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="list-team">
@@ -289,9 +321,9 @@
       </section>
 
       <!-- #endregion s3 -->
-      <!-- #region s4-->
+      <!-- #region s4 -->
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -387,9 +419,9 @@
 
      
     </main>
-<!-- #end region s4-->
+<!-- #endregion s4-->
  <!--#region footer-->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-container">
         <div class="footer-logo-container">
         <a href="./index.html" class="footer-logo"
@@ -449,7 +481,7 @@
     </footer>
 
     <!--#endregion footer-->
-<div class="backdrop">
+<div class="backdrop hidden">
  <div class="modal">
 <button type="button" class="close-btn">
   <svg  class="close-btn-icon" width="8" height="8">
